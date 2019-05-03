@@ -1,0 +1,90 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: cursive;
+}
+
+.ma{
+	margin: auto;
+}
+
+.db{
+	display: block;
+}
+
+.welcome{
+	text-align: center;
+	color: khaki;
+	max-width: 90%;
+	font-size: 60px;
+	text-overflow: wrap;
+	padding: 50px 0px;
+}
+
+.background {
+	background: linear-gradient(0.25turn, #0066cc, #cc0000);
+}
+
+.logo-container{
+	width: 100%;
+	min-width: 100px;
+	max-width: 300px;
+	min-height: 50px;
+	display: block;
+	margin: auto;
+	padding: 50px 0px 0px 0px;
+}
+
+.highlights-section{
+	background: linear-gradient(0.25turn, #cc0000,#0066cc);
+	margin-top: 50px;
+}
+
+.highlights-container{
+	width: 75%;
+	height: auto;
+	margin: 20px auto;
+	padding: 0px 20px 50px 20px;
+	max-height: 900px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.card-container{
+	display: block;
+	margin: 50px 0px 0px 0px;
+	padding: 0px 0px 15px 0px;
+	background-color: #515A5A;
+	border: 3px solid #F39C12;
+}
+
+.card{
+	width: 100%;
+	max-height: 800px;
+	display: block;
+	margin: auto;
+}
+.image-desc{
+	text-align: center;
+	color:#F7DC6F;
+	font-size: 20px;
+	margin: 20px 50px;
+}
+
+#mquc{
+	font-size: 40px;
+	font-family: cursive;
+	color: khaki;
+	display: block;
+	margin: 10px auto;
+	text-align: center;
+}
+
+#highlights{
+	font-size: 50px;
+	font-family: cursive;
+	color: khaki;
+	display: block;
+	text-align: center;
+	margin-top: 100px;
+}
