@@ -71,6 +71,56 @@ body{
 	margin: 20px 50px;
 }
 
+.profile-container{
+	width: 80%;
+	height: auto;
+	margin: 20px auto;
+	padding: 0px 20px 0px 20px;
+	max-height: 900px;
+	border: 3px solid #F39C12;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.player-profile-container{
+	display: inline-block;
+	min-width: 25%;
+	max-width: 40%;
+	height: auto;
+	max-height: 500px;
+	margin: 15px auto;
+	/*background-color: #515A5A;*/
+	border: 3px solid #3577e0;
+}
+
+.player-profile-container:hover{
+	transform: scale(1.1);
+	transition: transform 0.5s;
+	background: #474a4f;
+}
+
+
+.player{
+	width: 90%;
+	min-height: 280px;
+	display: block;
+	max-height: 250px;
+	margin: auto;
+	padding: 10px 0px 20px 0px;
+}
+
+
+.player-desc{
+	margin: 5px auto;
+	text-align: center;
+	width: 90%;
+	color:#F7DC6F;
+	font-size: 20px;
+}
+
+
+
 #mquc{
 	font-size: 40px;
 	font-family: cursive;
@@ -87,4 +137,13 @@ body{
 	display: block;
 	text-align: center;
 	margin-top: 100px;
+}
+
+#current-players{
+	font-size: 50px;
+	font-family: cursive;
+	color: khaki;
+	display: block;
+	text-align: center;
+	margin-top: 30px;
 }
